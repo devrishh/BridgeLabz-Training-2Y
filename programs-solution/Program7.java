@@ -1,0 +1,19 @@
+//2. Add Two Numbers
+//Write a program that takes two numbers as input from the user and prints
+//their sum.
+
+import java.util.Scanner;
+public class Program7 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int num1= input.nextInt();
+        int num2= input.nextInt();
+
+        double Sum =(num1+num2);
+
+        System.out.println("the sum of "+ num1 +" + "+num2+
+                " is "+Sum);
+
+
+    }
+}
